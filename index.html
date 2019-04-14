@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,800" rel="stylesheet">
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!-- custom css -->
+    <link rel="stylesheet" type="text/css" href="mapview.css">
+    <title>Map View</title>
+</head>
+<body>
+  <nav id="mainNavbar" class="navbar navbar-light fixed-top navbar1">
+      <a class="navbar-brand" href="#"><span id="your">Your</span><span id="own">Own</span><span id="room">Room</span> Main NavBar</a>
+  </nav>
+  <div>
+    <div class="row justify-content-around">
+      <div class="col-lg-5 embed-responsive embed-responsive-16by9 fixed-top fixed-top-3 d-none d-lg-block">
+        <div class="overlay">
+            <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.724709466565!2d77.62310554956711!3d12.925406890841453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae144dfe6aaaab%3A0xd38725b9b460fa22!2sYourOwnROOM+Private+Ltd.!5e0!3m2!1sen!2sin!4v1555175605471!5m2!1sen!2sin" width="500" height="650" frameborder="0" style="border:0" allowfullscreen>
+              
+            </iframe>
+        </div>  
+      </div>
+      <div class=" col-md-12 col-lg-7 ml-auto mr-3 content">
+        <nav class="navbar navbar-expand-md navbar-light fixed-top fixed-top-2 bg-light  ">
+          <input class="navbar-brand form-control mr-sm-2" type="search"  placeholder="Location" aria-label="Search">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse mr-5" id="navbarNavDropdown">
+            <ul class="navbar-nav mr-auto">  
+              <li class="nav-item dropdown radius">
+                <a class="nav-link dropdown-toggle" href="#" id="firstRadius" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Radius
+                </a>
+                <div class="dropdown-menu radiusMenu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#"><5</a>
+                  <a class="dropdown-item" href="#"><6</a>
+                  <a class="dropdown-item" href="#"><7</a>
+                  <a class="dropdown-item" href="#"><8</a>
+                  <a class="dropdown-item" href="#"><10</a>
+                  <a class="dropdown-item" href="#"><12</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown gender ">
+                <a class="nav-link dropdown-toggle" href="#" id="firstGender" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Gender
+                </a>
+                <div class="dropdown-menu genderMenu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Boys</a>
+                  <a class="dropdown-item" href="#">Girls</a>
+                 
+                </div>
+              </li>
+              <li class="nav-item dropdown property">
+                <a class="nav-link dropdown-toggle" href="#" id="firstProperty" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Property Type
+                </a>
+                <div class="dropdown-menu propertyMenu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Single</a>
+                  <a class="dropdown-item" href="#">Shared</a>
+                  <a class="dropdown-item" href="#">Married</a>
+                </div>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">  
+              <li class="nav-item dropdown locality">
+                <a class="nav-link dropdown-toggle" href="#" id="firstLocality" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Main Locality
+                </a>
+                <div class="dropdown-menu localityMenu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Bellandur</a>
+                  <a class="dropdown-item" href="#">Electronic City</a>
+                  <a class="dropdown-item" href="#">Kormangla</a>
+                  <a class="dropdown-item" href="#">Whitefield</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="container-fluid">
+          <div class="text-center">
+            <h3>108 Properties found in Banglore, Karnataka</h3>
+            <hr>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 col-md-4 col-lg-6">
+              <div class="card firstCard" >
+                <img class="card-img-top imgCorner" src="adarsh.jpg" alt="Card image cap" >
+                <div class="card-body">
+                  <div class="d-flex">
+                    <h5 class="card-title">Adarsh Palm Retreat, T 4</h5>
+                    <p class="card-title ml-auto maleIcon"><i class="fas fa-male fa-2x"></i></p>
+                  </div> 
+                  <p class="card-text location"><i class="fas fa-map-marker-alt fa-sm"></i>  Bellandur</p>
+                  <div class="d-flex price">
+                    <p class="card-text">Total Rent<br><span class="cost">₹ 18900 - ₹ 19900 </span></p>
+                    <p  class="card-text ml-auto location status ">Partial</p>
+                  </div>  
+                  <hr class="innerhr">
+                  <a href="#" class="btn btn-outline-info btn-sm">Schedule Visit</a>
+                  <a href="#" class="btn btn-outline-success btn-sm btnDetails">More Details</a>
+                </div>
+              </div>
+            </div>  
+            <div class="col-sm-6 col-md-4 col-lg-6">
+              <div class="card otherCards" >
+                <img class="card-img-top imgCorner" src="prestige.jpg" alt="Card image cap" >
+                <div class="card-body">
+                  <div class="d-flex">
+                    <h5 class="card-title">Prestige Park View</h5>
+                    <p class="card-title ml-auto maleIcon"><i class="fas fa-female fa-2x"></i></p>
+                  </div> 
+                  <p class="card-text location"><i class="fas fa-map-marker-alt fa-sm"></i>  Whitefield</p>
+                  <div class="d-flex price">
+                    <p class="card-text">Total Rent<br><span class="cost">₹ 16000 - ₹ 17000</span></p>
+                    <p  class="card-text ml-auto location status ">Partial</p>
+                  </div>  
+                  <hr class="innerhr">
+                  <a href="#" class="btn btn-outline-info btn-sm">Schedule Visit</a>
+                  <a href="#" class="btn btn-outline-success btn-sm btnDetails">More Details</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-6">
+              <div class="card otherCards" >
+                <img class="card-img-top imgCorner" src="big_5ca475a8ec52a.jpg" alt="Card image cap" >
+                <div class="card-body">
+                  <div class="d-flex">
+                    <h5 class="card-title">SNSY ARCADE</h5>
+                    <p class="card-title ml-auto maleIcon"><i class="fas fa-users fa-2x"></i></p>
+                  </div> 
+                  <p class="card-text location"><i class="fas fa-map-marker-alt fa-sm"></i>  Whitefield</p>
+                  <div class="d-flex price">
+                    <p class="card-text">Total Rent<br><span class="cost">₹ 23000 - ₹ 36000 </span></p>
+                    <p  class="card-text ml-auto location status ">Available</p>
+                  </div> 
+                  <hr class="innerhr"> 
+                  <a href="#" class="btn btn-outline-info btn-sm">Schedule Visit</a>
+                  <a href="#" class="btn btn-outline-success btn-sm btnDetails">More Details</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-6">
+              <div class="card otherCards" >
+                <img class="card-img-top imgCorner" src="suncity.jpg" alt="Card image cap" >
+                <div class="card-body">
+                  <div class="d-flex">
+                    <h5 class="card-title">Suncity <br>Gloria</h5>
+                    <p class="card-title ml-auto maleIcon"><i class="fas fa-users fa-2x"></i></p>
+                  </div> 
+                  <p class="card-text location"><i class="fas fa-map-marker-alt fa-sm"></i>  Sarjpur</p>
+                  <div class="d-flex price">
+                    <p class="card-text">Total Rent<br><span class="cost">₹ 14000 - ₹ 15000 </span></p>
+                    <p  class="card-text ml-auto location status ">Available</p>
+                  </div>  
+                  <hr class="innerhr">
+                  <a href="#" class="btn btn-outline-info btn-sm">Schedule Visit</a>
+                  <a href="#" class="btn btn-outline-success btn-sm btnDetails">More Details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>        
+      </div>  
+        
+    </div>
+   
+  </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="mapview.js"></script>
+  </body>
+</html>
